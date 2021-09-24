@@ -8,9 +8,9 @@ test repo for App of Apps
 ```
 argocd app create apps \
     --dest-namespace argocd \
-    --dest-server <kube local> \
+    --dest-server https://kubernetes.default.svc \
     --repo https://github.com/InsomniaCoder/argo-app-of-apps.git \
     --path apps  
-    
+
 argocd app sync apps
 ```

@@ -14,7 +14,7 @@ spec:
   # Only permit applications to deploy to the guestbook namespace in the same cluster
   destinations:
   - namespace: guestbook
-    server: https://127.0.0.1:51417
+    server: https://kubernetes.default.svc
   # Deny all cluster-scoped resources from being created, except for Namespace
   clusterResourceWhitelist:
   - group: ''
