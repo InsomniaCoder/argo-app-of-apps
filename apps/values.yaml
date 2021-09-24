@@ -1,0 +1,6 @@
+spec:
+  destination:
+    server: https://127.0.0.1:51417
+  source:
+    repoURL: git@github.com:InsomniaCoder/argo-app-of-apps.git
+    targetRevision: HEAD
